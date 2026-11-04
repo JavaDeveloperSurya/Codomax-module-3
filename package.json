@@ -1,0 +1,32 @@
+{
+  "name": "codomax-module3-blog",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Codomax Internship Module 3 - Next.js + MongoDB blog with secure auth, blog storage, listing and detail pages.",
+  "scripts": {
+    "dev": "next dev --hostname 0.0.0.0 --port 3000",
+    "build": "next build",
+    "start": "next start --hostname 0.0.0.0 --port 3000",
+    "demo": "node scripts/demo.mjs",
+    "seed": "node scripts/seed.mjs",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "bcryptjs": "^3.0.3",
+    "jose": "^6.2.15",
+    "mongoose": "^8.18.0",
+    "next": "15.5.29",
+    "react": "19.1.0",
+    "react-dom": "19.1.0",
+    "react-markdown": "^10.1.0",
+    "remark-gfm": "^4.0.1",
+    "zod": "^4.6.7"
+  },
+  "devDependencies": {
+    "@types/node": "^22.15.0",
+    "@types/react": "^19.1.0",
+    "@types/react-dom": "^19.1.0",
+    "mongodb-memory-server": "^11.3.0",
+    "typescript": "^5.9.2"
+  }
+}
